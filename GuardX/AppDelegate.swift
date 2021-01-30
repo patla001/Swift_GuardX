@@ -21,9 +21,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         FirebaseApp.configure()
         
-        //AIzaSyDWaMXL8LTPYIL25jUZ4_aa8AwqIw0biT4
-        GMSServices.provideAPIKey("AIzaSyDWaMXL8LTPYIL25jUZ4_aa8AwqIw0biT4")
-        GMSPlacesClient.provideAPIKey("AIzaSyDWaMXL8LTPYIL25jUZ4_aa8AwqIw0biT4")
+        
+        GMSServices.provideAPIKey("Google API Key")
+        GMSPlacesClient.provideAPIKey("Google API Key")
         
         /*self.window = UIWindow(frame: UIScreen.main.bounds)
         if let window = self.window {
