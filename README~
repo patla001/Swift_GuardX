@@ -1,0 +1,38 @@
+README
+
+Class: CS646 IOS 2018
+Project Name: GuardX
+Student Name: Ezer Patlan
+RedID: 822178416
+Date: 12/30/2018
+
+Prerequistes:
+
+We use GoogleMaps and GooglePlace in order to use the App.
+We use FirebaseAuth and Firebase Database
+
+The Data was donwload from San Dego Police Services
+https://www.sandiego.gov/police/services/statistics
+ 
+Crime Data (SANDAG)
+https://www.sandag.org/index.asp?classid=14&subclassid=21&projectid=446&fuseaction=projects.detail
+
+They update the data for every 180 days
+
+We load the data into a json format to the Firebase
+
+
+Description:
+
+This app is called GuardX. The purpose of this app is to let the user know any crime activity going on in their neighborhood. User can use there GPS location or type the address and find out the current status of any crime with a radius of 2.5 miles.
+
+The user need to sign up in order to use the app. Once register, the user will be take in to a navigation tab showing a form and map. The form is to add into the database if the user had encounter any crime activity in their house, apartment or neighborhood. The user can press GPS button to find where he is and fill out the address line or user can type the address in the textfield. There is also another feature in the form and let the user extract the address from the account and update in the address text field.
+
+Once the user fills out the address, time, crime activity, and description. It will be loaded into the Firebase server.
+The user can use the map and press the GPS bullside location button. Loading the data will take less than 10 minutes, since we are loading about ~44,000 data points in Firebase and App. Also, be cautions on pressing the button too much, depending how many you press will go over the number of times in loading the data. This will take more than 10 minutes per load.
+
+
+If the user wishes to add different location instead of the GPS. The user can use the Address Search textfield in the top corner of the map. The user only needs to type the address and Google will look over and filter the correct location. Once is selected, it automatically will go over all the data in Firebase and plot all the points in the map. 
+
+In conclusion, we want to provide a free service to the user to raise awareness in the neighborhood and let the user informed other users what is going on. The app provides 180 days of police county data and is display on the map.
+

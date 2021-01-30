@@ -1,0 +1,755 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B7733E282A734E8AB12148AF /* Pods_GuardX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F500B0F618FE9FBD0B1143F4 /* Pods_GuardX.framework */; };
+		CD0183E721CDDD3300F9299A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0183E621CDDD3300F9299A /* AppDelegate.swift */; };
+		CD0183E921CDDD3300F9299A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0183E821CDDD3300F9299A /* ViewController.swift */; };
+		CD0183EC21CDDD3300F9299A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD0183EA21CDDD3300F9299A /* Main.storyboard */; };
+		CD0183EE21CDDD3700F9299A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD0183ED21CDDD3700F9299A /* Assets.xcassets */; };
+		CD0183F121CDDD3700F9299A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD0183EF21CDDD3700F9299A /* LaunchScreen.storyboard */; };
+		CD0183FC21CDDD3700F9299A /* GuardXTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0183FB21CDDD3700F9299A /* GuardXTests.swift */; };
+		CD01840721CDDD3700F9299A /* GuardXUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD01840621CDDD3700F9299A /* GuardXUITests.swift */; };
+		CD488DB121D8C90F007A09D9 /* CrimeCatalogTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD488DB021D8C90F007A09D9 /* CrimeCatalogTableViewController.swift */; };
+		CD488DB321D91467007A09D9 /* crimeCatalog.plist in Resources */ = {isa = PBXBuildFile; fileRef = CD488DB221D91467007A09D9 /* crimeCatalog.plist */; };
+		CD93706B21CE545F006136F2 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD93706A21CE545F006136F2 /* StartViewController.swift */; };
+		CD93706D21CE979B006136F2 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD93706C21CE979B006136F2 /* MainViewController.swift */; };
+		CD93706F21CF2D04006136F2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CD93706E21CF2D03006136F2 /* GoogleService-Info.plist */; };
+		CD93707121CFD9C9006136F2 /* states.plist in Resources */ = {isa = PBXBuildFile; fileRef = CD93707021CFD9C9006136F2 /* states.plist */; };
+		CD93707321CFDD6E006136F2 /* gender.plist in Resources */ = {isa = PBXBuildFile; fileRef = CD93707221CFDD6E006136F2 /* gender.plist */; };
+		CD93707F21D1D530006136F2 /* MapTapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD93707E21D1D530006136F2 /* MapTapViewController.swift */; };
+		CD93708121D1D5BE006136F2 /* MapChildTapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD93708021D1D5BE006136F2 /* MapChildTapViewController.swift */; };
+		CD93708321D1D655006136F2 /* LocationChildViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD93708221D1D655006136F2 /* LocationChildViewController.swift */; };
+		CDB5CCB721D5F025007B6CE1 /* ScaleBarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDB5CCB521D5F01E007B6CE1 /* ScaleBarView.xib */; };
+		CDB5CCB821D5F025007B6CE1 /* ScaleBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB5CCB621D5F023007B6CE1 /* ScaleBarView.swift */; };
+		CDBD7D2821D383B900CC19A7 /* CustomMarkerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBD7D2721D383B700CC19A7 /* CustomMarkerView.swift */; };
+		CDFAE13A21CDFCA200041708 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFAE13921CDFCA200041708 /* RegisterViewController.swift */; };
+		CDFAE13C21CDFCB800041708 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFAE13B21CDFCB800041708 /* LoginViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD0183F821CDDD3700F9299A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD0183DB21CDDD3200F9299A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD0183E221CDDD3300F9299A;
+			remoteInfo = GuardX;
+		};
+		CD01840321CDDD3700F9299A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD0183DB21CDDD3200F9299A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD0183E221CDDD3300F9299A;
+			remoteInfo = GuardX;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		33DD77151D62D92ED867077D /* Pods-GuardX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GuardX.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-GuardX/Pods-GuardX.debug.xcconfig"; sourceTree = "<group>"; };
+		CD0183E321CDDD3300F9299A /* GuardX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuardX.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD0183E621CDDD3300F9299A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CD0183E821CDDD3300F9299A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CD0183EB21CDDD3300F9299A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD0183ED21CDDD3700F9299A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD0183F021CDDD3700F9299A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD0183F221CDDD3700F9299A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD0183F721CDDD3700F9299A /* GuardXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GuardXTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD0183FB21CDDD3700F9299A /* GuardXTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuardXTests.swift; sourceTree = "<group>"; };
+		CD0183FD21CDDD3700F9299A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD01840221CDDD3700F9299A /* GuardXUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GuardXUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD01840621CDDD3700F9299A /* GuardXUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuardXUITests.swift; sourceTree = "<group>"; };
+		CD01840821CDDD3700F9299A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD488DB021D8C90F007A09D9 /* CrimeCatalogTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrimeCatalogTableViewController.swift; sourceTree = "<group>"; };
+		CD488DB221D91467007A09D9 /* crimeCatalog.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = crimeCatalog.plist; sourceTree = "<group>"; };
+		CD93706A21CE545F006136F2 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		CD93706C21CE979B006136F2 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		CD93706E21CF2D03006136F2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CD93707021CFD9C9006136F2 /* states.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = states.plist; sourceTree = "<group>"; };
+		CD93707221CFDD6E006136F2 /* gender.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = gender.plist; sourceTree = "<group>"; };
+		CD93707E21D1D530006136F2 /* MapTapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapTapViewController.swift; sourceTree = "<group>"; };
+		CD93708021D1D5BE006136F2 /* MapChildTapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapChildTapViewController.swift; sourceTree = "<group>"; };
+		CD93708221D1D655006136F2 /* LocationChildViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationChildViewController.swift; sourceTree = "<group>"; };
+		CDB5CCB521D5F01E007B6CE1 /* ScaleBarView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ScaleBarView.xib; path = "../../ios-google-maps-scale-bar-master/ScaleBarView.xib"; sourceTree = "<group>"; };
+		CDB5CCB621D5F023007B6CE1 /* ScaleBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ScaleBarView.swift; path = "../../ios-google-maps-scale-bar-master/ScaleBarView.swift"; sourceTree = "<group>"; };
+		CDBD7D2721D383B700CC19A7 /* CustomMarkerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomMarkerView.swift; sourceTree = "<group>"; };
+		CDFAE13921CDFCA200041708 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		CDFAE13B21CDFCB800041708 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		F03E8B9435037B0564F573BE /* Pods-GuardX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GuardX.release.xcconfig"; path = "../Pods/Target Support Files/Pods-GuardX/Pods-GuardX.release.xcconfig"; sourceTree = "<group>"; };
+		F500B0F618FE9FBD0B1143F4 /* Pods_GuardX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GuardX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD0183E021CDDD3300F9299A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7733E282A734E8AB12148AF /* Pods_GuardX.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD0183F421CDDD3700F9299A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD0183FF21CDDD3700F9299A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8908B89ACFE2E0688EE881A3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F500B0F618FE9FBD0B1143F4 /* Pods_GuardX.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9414A0E97149AC86124B2895 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				33DD77151D62D92ED867077D /* Pods-GuardX.debug.xcconfig */,
+				F03E8B9435037B0564F573BE /* Pods-GuardX.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CD0183DA21CDDD3200F9299A = {
+			isa = PBXGroup;
+			children = (
+				CD0183E521CDDD3300F9299A /* GuardX */,
+				CD0183FA21CDDD3700F9299A /* GuardXTests */,
+				CD01840521CDDD3700F9299A /* GuardXUITests */,
+				CD0183E421CDDD3300F9299A /* Products */,
+				9414A0E97149AC86124B2895 /* Pods */,
+				8908B89ACFE2E0688EE881A3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CD0183E421CDDD3300F9299A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD0183E321CDDD3300F9299A /* GuardX.app */,
+				CD0183F721CDDD3700F9299A /* GuardXTests.xctest */,
+				CD01840221CDDD3700F9299A /* GuardXUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD0183E521CDDD3300F9299A /* GuardX */ = {
+			isa = PBXGroup;
+			children = (
+				CD0183E621CDDD3300F9299A /* AppDelegate.swift */,
+				CD0183E821CDDD3300F9299A /* ViewController.swift */,
+				CD0183EA21CDDD3300F9299A /* Main.storyboard */,
+				CDFAE13921CDFCA200041708 /* RegisterViewController.swift */,
+				CDFAE13B21CDFCB800041708 /* LoginViewController.swift */,
+				CD0183ED21CDDD3700F9299A /* Assets.xcassets */,
+				CD0183EF21CDDD3700F9299A /* LaunchScreen.storyboard */,
+				CD0183F221CDDD3700F9299A /* Info.plist */,
+				CD93706E21CF2D03006136F2 /* GoogleService-Info.plist */,
+				CD93706A21CE545F006136F2 /* StartViewController.swift */,
+				CDB5CCB621D5F023007B6CE1 /* ScaleBarView.swift */,
+				CDB5CCB521D5F01E007B6CE1 /* ScaleBarView.xib */,
+				CD93706C21CE979B006136F2 /* MainViewController.swift */,
+				CD93707021CFD9C9006136F2 /* states.plist */,
+				CD93707221CFDD6E006136F2 /* gender.plist */,
+				CD93707E21D1D530006136F2 /* MapTapViewController.swift */,
+				CD93708021D1D5BE006136F2 /* MapChildTapViewController.swift */,
+				CD93708221D1D655006136F2 /* LocationChildViewController.swift */,
+				CDBD7D2721D383B700CC19A7 /* CustomMarkerView.swift */,
+				CD488DB021D8C90F007A09D9 /* CrimeCatalogTableViewController.swift */,
+				CD488DB221D91467007A09D9 /* crimeCatalog.plist */,
+			);
+			path = GuardX;
+			sourceTree = "<group>";
+		};
+		CD0183FA21CDDD3700F9299A /* GuardXTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD0183FB21CDDD3700F9299A /* GuardXTests.swift */,
+				CD0183FD21CDDD3700F9299A /* Info.plist */,
+			);
+			path = GuardXTests;
+			sourceTree = "<group>";
+		};
+		CD01840521CDDD3700F9299A /* GuardXUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CD01840621CDDD3700F9299A /* GuardXUITests.swift */,
+				CD01840821CDDD3700F9299A /* Info.plist */,
+			);
+			path = GuardXUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD0183E221CDDD3300F9299A /* GuardX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD01840B21CDDD3700F9299A /* Build configuration list for PBXNativeTarget "GuardX" */;
+			buildPhases = (
+				BAB8E2A94A072E3D5831BF6D /* [CP] Check Pods Manifest.lock */,
+				CD0183DF21CDDD3300F9299A /* Sources */,
+				CD0183E021CDDD3300F9299A /* Frameworks */,
+				CD0183E121CDDD3300F9299A /* Resources */,
+				C88142E6CBCDAF82DE5F04FF /* [CP] Embed Pods Frameworks */,
+				AAA72B011782AD74A85E47C9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GuardX;
+			productName = GuardX;
+			productReference = CD0183E321CDDD3300F9299A /* GuardX.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD0183F621CDDD3700F9299A /* GuardXTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD01840E21CDDD3700F9299A /* Build configuration list for PBXNativeTarget "GuardXTests" */;
+			buildPhases = (
+				CD0183F321CDDD3700F9299A /* Sources */,
+				CD0183F421CDDD3700F9299A /* Frameworks */,
+				CD0183F521CDDD3700F9299A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD0183F921CDDD3700F9299A /* PBXTargetDependency */,
+			);
+			name = GuardXTests;
+			productName = GuardXTests;
+			productReference = CD0183F721CDDD3700F9299A /* GuardXTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CD01840121CDDD3700F9299A /* GuardXUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD01841121CDDD3700F9299A /* Build configuration list for PBXNativeTarget "GuardXUITests" */;
+			buildPhases = (
+				CD0183FE21CDDD3700F9299A /* Sources */,
+				CD0183FF21CDDD3700F9299A /* Frameworks */,
+				CD01840021CDDD3700F9299A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD01840421CDDD3700F9299A /* PBXTargetDependency */,
+			);
+			name = GuardXUITests;
+			productName = GuardXUITests;
+			productReference = CD01840221CDDD3700F9299A /* GuardXUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD0183DB21CDDD3200F9299A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Ezer Patlan";
+				TargetAttributes = {
+					CD0183E221CDDD3300F9299A = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					CD0183F621CDDD3700F9299A = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = CD0183E221CDDD3300F9299A;
+					};
+					CD01840121CDDD3700F9299A = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = CD0183E221CDDD3300F9299A;
+					};
+				};
+			};
+			buildConfigurationList = CD0183DE21CDDD3200F9299A /* Build configuration list for PBXProject "GuardX" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD0183DA21CDDD3200F9299A;
+			productRefGroup = CD0183E421CDDD3300F9299A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD0183E221CDDD3300F9299A /* GuardX */,
+				CD0183F621CDDD3700F9299A /* GuardXTests */,
+				CD01840121CDDD3700F9299A /* GuardXUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD0183E121CDDD3300F9299A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDB5CCB721D5F025007B6CE1 /* ScaleBarView.xib in Resources */,
+				CD0183F121CDDD3700F9299A /* LaunchScreen.storyboard in Resources */,
+				CD93707121CFD9C9006136F2 /* states.plist in Resources */,
+				CD93706F21CF2D04006136F2 /* GoogleService-Info.plist in Resources */,
+				CD0183EE21CDDD3700F9299A /* Assets.xcassets in Resources */,
+				CD0183EC21CDDD3300F9299A /* Main.storyboard in Resources */,
+				CD93707321CFDD6E006136F2 /* gender.plist in Resources */,
+				CD488DB321D91467007A09D9 /* crimeCatalog.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD0183F521CDDD3700F9299A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD01840021CDDD3700F9299A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AAA72B011782AD74A85E47C9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/../Pods/Target Support Files/Pods-GuardX/Pods-GuardX-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Resources/GooglePlacePicker.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlacePicker.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-GuardX/Pods-GuardX-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BAB8E2A94A072E3D5831BF6D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GuardX-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C88142E6CBCDAF82DE5F04FF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/../Pods/Target Support Files/Pods-GuardX/Pods-GuardX-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-GuardX/Pods-GuardX-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD0183DF21CDDD3300F9299A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD93708121D1D5BE006136F2 /* MapChildTapViewController.swift in Sources */,
+				CDB5CCB821D5F025007B6CE1 /* ScaleBarView.swift in Sources */,
+				CD488DB121D8C90F007A09D9 /* CrimeCatalogTableViewController.swift in Sources */,
+				CD93707F21D1D530006136F2 /* MapTapViewController.swift in Sources */,
+				CD93706B21CE545F006136F2 /* StartViewController.swift in Sources */,
+				CDFAE13C21CDFCB800041708 /* LoginViewController.swift in Sources */,
+				CDFAE13A21CDFCA200041708 /* RegisterViewController.swift in Sources */,
+				CDBD7D2821D383B900CC19A7 /* CustomMarkerView.swift in Sources */,
+				CD93706D21CE979B006136F2 /* MainViewController.swift in Sources */,
+				CD0183E921CDDD3300F9299A /* ViewController.swift in Sources */,
+				CD0183E721CDDD3300F9299A /* AppDelegate.swift in Sources */,
+				CD93708321D1D655006136F2 /* LocationChildViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD0183F321CDDD3700F9299A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD0183FC21CDDD3700F9299A /* GuardXTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD0183FE21CDDD3700F9299A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD01840721CDDD3700F9299A /* GuardXUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD0183F921CDDD3700F9299A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD0183E221CDDD3300F9299A /* GuardX */;
+			targetProxy = CD0183F821CDDD3700F9299A /* PBXContainerItemProxy */;
+		};
+		CD01840421CDDD3700F9299A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD0183E221CDDD3300F9299A /* GuardX */;
+			targetProxy = CD01840321CDDD3700F9299A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD0183EA21CDDD3300F9299A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD0183EB21CDDD3300F9299A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD0183EF21CDDD3700F9299A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD0183F021CDDD3700F9299A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD01840921CDDD3700F9299A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CD01840A21CDDD3700F9299A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD01840C21CDDD3700F9299A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33DD77151D62D92ED867077D /* Pods-GuardX.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GuardX/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.sdsu.cs.GuardX;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD01840D21CDDD3700F9299A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F03E8B9435037B0564F573BE /* Pods-GuardX.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GuardX/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.sdsu.cs.GuardX;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CD01840F21CDDD3700F9299A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GuardXTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.sdsu.cs.GuardXTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GuardX.app/GuardX";
+			};
+			name = Debug;
+		};
+		CD01841021CDDD3700F9299A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GuardXTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.sdsu.cs.GuardXTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GuardX.app/GuardX";
+			};
+			name = Release;
+		};
+		CD01841221CDDD3700F9299A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GuardXUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.sdsu.cs.GuardXUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GuardX;
+			};
+			name = Debug;
+		};
+		CD01841321CDDD3700F9299A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GuardXUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.sdsu.cs.GuardXUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GuardX;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD0183DE21CDDD3200F9299A /* Build configuration list for PBXProject "GuardX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD01840921CDDD3700F9299A /* Debug */,
+				CD01840A21CDDD3700F9299A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD01840B21CDDD3700F9299A /* Build configuration list for PBXNativeTarget "GuardX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD01840C21CDDD3700F9299A /* Debug */,
+				CD01840D21CDDD3700F9299A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD01840E21CDDD3700F9299A /* Build configuration list for PBXNativeTarget "GuardXTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD01840F21CDDD3700F9299A /* Debug */,
+				CD01841021CDDD3700F9299A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD01841121CDDD3700F9299A /* Build configuration list for PBXNativeTarget "GuardXUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD01841221CDDD3700F9299A /* Debug */,
+				CD01841321CDDD3700F9299A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD0183DB21CDDD3200F9299A /* Project object */;
+}
